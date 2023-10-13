@@ -1,0 +1,62 @@
+.newsletter{
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    margin-top: 170px;
+    background-color: var(--beige-clr);
+}
+
+.newsletter-heading{
+    color: var(--brown-clr);
+    font-weight: bolder;
+    font-size: clamp(2.5rem, 1.167rem + 5.333vw, 4.5rem);
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+form{
+    padding-left: 70px;
+}
+
+.form-item-text{    
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--brown-clr);
+}
+
+input[type="text"]{
+   border: 1px solid var(--brown-clr);
+   background-color: var(--beige-clr);
+   padding: 5px;
+   font-size: 20px;
+   color: var(--brown-clr);
+   margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    border: 1px solid var(--brown-clr);
+    background-color: var(--beige-clr);
+    color: var(--brown-clr);
+    padding: 7px 52px;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+input[type="text"]:valid{
+    border: 1px solid green;
+}
+
+input:focus{
+    outline:transparent;
+}
+
+input[type="submit"]:hover{
+    background-color: var(--brown-clr);
+    color: var(--beige-clr);
+}
+
+.msg{
+    color: var(--brown-clr);
+}

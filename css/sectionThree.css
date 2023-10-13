@@ -1,0 +1,58 @@
+.section-three{
+    height: 100vh;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    background-image: url("../assets/About.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.section-three-inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.section-three-left{
+    width: 100%;
+    height: 50%;
+    background: rgba(255,255,255,0.5);
+    
+}
+
+.section-three-right{
+    width: 100%;
+    height: 50%;
+}
+
+.section-three-heading{
+    padding: 30px 50px 10px 50px;
+    color: var(--brown-clr);
+    font-weight: bolder;
+    font-size: clamp(2.5rem, 1.167rem + 5.333vw, 4.5rem);
+}
+
+.section-three-text{
+    width: 90%;
+    padding: 0px 50px 20px 50px;
+}
+
+@media (min-width: 1000px){
+    .section-three-inner{
+        flex-direction: row;
+    }
+
+    .section-three-left, .section-three-right{
+        width: 50%;
+        height: 100%;
+    }
+
+    .section-three-text{
+        width: 60%;
+    }
+}

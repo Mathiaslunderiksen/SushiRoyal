@@ -1,0 +1,39 @@
+footer{
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    background-color: var(--brown-clr);
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer-middle-box{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.footer-right{
+    display: flex;
+    gap: 10px
+}
+
+.fa{
+    font-size: 20px;
+}
+
+@media (min-width:500px){
+    .footer-inner{
+        flex-direction: row;
+        gap: 0px;
+    }
+}

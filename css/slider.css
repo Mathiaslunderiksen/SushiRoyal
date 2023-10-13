@@ -1,0 +1,34 @@
+/* Slider contains the image */
+.slider {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 200px;
+}
+
+/* Slider image */
+.slider-slides .slider-slide{
+    width: 100%;
+    object-fit: cover;
+}
+
+.slider-button{
+    position: absolute;
+    bottom: 41px;
+    right: 90px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--beige-clr);
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 17px 43px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    cursor: pointer;
+}
+
+.slider-button:hover{
+    background-color: var(--brown-clr);
+}

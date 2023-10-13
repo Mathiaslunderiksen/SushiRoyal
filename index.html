@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi Royal</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/sectionTwo.css">
+    <link rel="stylesheet" href="./css/sectionThree.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/newsletter.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <!-- JS -->
+    <script src="./js/script.js" defer></script>
+    <script src="./js/slider.js" defer></script>
+    <script src="./js/newsletter.js" defer></script>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Nav start -->
+    <div class="nav">
+    <nav class="main-nav" id="top">
+
+        <!-- The logo -->
+        <a class="a-logo" href="#top"><p class="logo">Sushi royal</p></a>
+
+        <!-- The burger button -->
+        <button class="burger-btn">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </button>
+
+        <!-- List with nav-items -->
+        <ul class="nav-ul">
+            <li class="nav-item"><a href="#materials" class="nav-link">Råvarer</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">Om Sushi Royal</a></li>
+            <li class="nav-item"><a href="#gallery" class="nav-link">Galleri</a></li>
+        </ul>
+        
+    </nav>
+</div>
+    <!-- Nav end -->
+
+    <!-- Slider start -->
+    <div class="slider">
+
+        <!-- Slider-slides contains the img slider-slide -->
+        <div class="slider-slides">
+            <img class="slider-slide" src="" alt="">
+        </div>
+
+        <a class="slider-button" href="index.html">Bestil bord</a>
+        
+    </div>
+    <!-- Slider end -->
+
+    <!-- Section two start -->
+    <section class="section-two" id="materials">
+
+        <h1 class="section-two-heading">Friske råvarer – lækker Sushi</h1>
+        <p class="section-two-text">Hos Sushi Royal bruger vi kun friske råvarer. Hver dag kører vi ud til vores gartneri <br> og fiskehandler for at hente friske råvarer. Derved kan vi garatere 100% friskhed.</p>
+        <a class="section-two-a" href="index.html"><button class="section-two-button">læs mere</button></a>
+    
+    </section>
+    <!-- Section two end -->
+
+    <!-- Section three start -->
+    <section class="section-three" id="about">
+
+        <div class="section-three-inner">
+            <div class="section-three-left">
+                <h2 class="section-three-heading">Sushi Royal</h2>
+                <p class="section-three-text">Hos Sushi Royal laver vi Sushi efter japanske standarder. Vi bruger kun de bedste råvarer og laver alt fra bunden. Vi lægger vægt på høj kvalitet og gode priser.</p>
+                <p class="section-three-text">Du kan besøge vores restaurant i hjertet af Århus, hvor det er muligt at spise i restauranten eller tage det med hjem.</p>
+            </div>
+            <div class="section-three-right"></div>
+        </div>
+
+    </section>
+    <!-- Section three end -->
+
+    <!-- Gallery start -->
+    <section class="gallery" id="gallery">
+        <h1 class="gallery-heading">Galleri</h1>
+        <div class="gallery-inner">
+            <div class="gallery-box"><img class="gallery-img" src="assets/galleri01.jpg" alt=""></div>
+            <div class="gallery-box"><h3 class="gallery-box-heading">Lakseceviche </h3> <p class="gallery-box-text"> Laks med ceviche-dressing. Toppet med Wasabi yuzu-mayo, daikon og ørredrogn <br> <br> <span class="gallery-box-span">90 kr.</span> </p></div>
+            <div class="gallery-box"><img class="gallery-img" src="assets/galleri02.jpg" alt=""></div>
+            <div class="gallery-box"><h3 class="gallery-box-heading">California </h3> <p class="gallery-box-text"> De lækreste rulller med surimi, avocado, agurk rullet med massago og sesam mix <br> <br> <span class="gallery-box-span">65 kr.</span> </p></div>
+            <div class="gallery-box"><img class="gallery-img" src="assets/galleri03.jpg" alt=""></div>
+            <div class="gallery-box"><h3 class="gallery-box-heading">Red salmon </h3> <p class="gallery-box-text"> Laks, agurk, avocado, hvidløgsmayo, wasabi rullet med massago og purløg. <br> <br> <span class="gallery-box-span">65 kr.</span> </p></div>
+            <div class="gallery-box"><img class="gallery-img" src="assets/galleri04.jpg" alt=""></div>
+            <div class="gallery-box"><h3 class="gallery-box-heading">Jakuza </h3> <p class="gallery-box-text"> Crispy kylling, Avocado rullet med sesam mix toppet med Syltede rødløg. <br> <br> <span class="gallery-box-span">90 kr.</span> </p></div>
+            <div class="gallery-box"><img class="gallery-img" src="assets/galleri05.jpg" alt=""></div>
+
+        </div>
+    </section>
+    <!-- Gallery end -->
+    
+    <!-- Newsletter start -->
+    <section class="newsletter">
+        <div class="newsletter-inner">
+        <form id="sign-up">
+            <h2 class="newsletter-heading">Tilmeld nyhedsbrev</h2>
+            <div class="form-item">
+                    <p class="form-item-text">Navn:</p>
+                    <input type="text" name="name" required minlength="2" maxlength="20">
+            </div>
+            <div class="form-item">
+                    <p class="form-item-text">E-mail:</p>
+                    <input type="text" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+            </div>
+
+            <div class="form-item"><input type="submit" value="SEND"></div>
+        </form>
+        <p class="msg"></p>
+    </section>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-left">
+                <p class="footer-left-heading">Sushi Royal</p>
+                <p class="footer-left-text">Sødergade 12</p>
+                <p class="footer-left-text">8000 Århus</p>
+            </div>
+            <div class="footer-middle">
+                <div class="footer-middle-box">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <p>3040 5060</p>
+                </div>
+                <div class="footer-middle-box">
+                    <i class="fa fa-at" aria-hidden="true"></i>
+                    <p>mail@sushiroyal.dk</p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
